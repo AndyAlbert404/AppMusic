@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mnNotif" android:title="Notification" app:showAsAction="always" android:icon="@drawable/baseline_notifications_24" android:tooltipText="Notification"/>
+    <item android:id="@+id/mnEditAcc" android:title="Edit Account" app:showAsAction="always" android:icon="@drawable/baseline_manage_accounts_24" android:tooltipText="Aiet Account"/>
+    <item android:id="@+id/mnMenu" android:title="Menu" app:showAsAction="ifRoom" android:icon="@drawable/baseline_menu_24">
+        <menu>
+            <item android:title="Album" android:id="@+id/mnAlbum"/>
+            <item android:title="Search" android:id="@+id/mnSearch"/>
+            <item android:title="Premium" android:id="@+id/mnPremium"/>
+        </menu>
+    </item>
+</menu>
